@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/engagement-invite/static/css/main.b65d9e1b.css",
+    "main.js": "/engagement-invite/static/js/main.d1f06355.js",
+    "static/js/453.9bab38cf.chunk.js": "/engagement-invite/static/js/453.9bab38cf.chunk.js",
+    "static/media/T4.mp4": "/engagement-invite/static/media/T4.8961ee0d94944507e745.mp4",
+    "static/media/T5.mp4": "/engagement-invite/static/media/T5.505eea5250cfb3c5b8b9.mp4",
+    "static/media/T3.jpeg": "/engagement-invite/static/media/T3.2a6bfea626f75ea80a0e.jpeg",
+    "static/media/Shubham.mp3": "/engagement-invite/static/media/Shubham.50afa5d75dec15322d3f.mp3",
+    "static/media/two.png": "/engagement-invite/static/media/two.652070e6597d705b52f9.png",
+    "static/media/PayBG.png": "/engagement-invite/static/media/PayBG.f8f7f7d6257784dd0360.png",
+    "static/media/couple.png": "/engagement-invite/static/media/couple.ea9b0a0e3b7935e7d93e.png",
+    "static/media/bottomleft.png": "/engagement-invite/static/media/bottomleft.2eb0f2646e5cd090a793.png",
+    "static/media/couplebg.png": "/engagement-invite/static/media/couplebg.b838ace969043022d1c3.png",
+    "static/media/topleft.png": "/engagement-invite/static/media/topleft.8f912e04c3d7aa6e9676.png",
+    "static/media/bottomright.png": "/engagement-invite/static/media/bottomright.7f0736d6fd17524f2a64.png",
+    "static/media/topright.png": "/engagement-invite/static/media/topright.8b81dda2af1ddaebebf3.png",
+    "static/media/THlogo.png": "/engagement-invite/static/media/THlogo.35c765fd566ef5cef789.png",
+    "static/media/ganeshbgtwo.png": "/engagement-invite/static/media/ganeshbgtwo.ed5e00fcd8f7d787d1ce.png",
+    "static/media/thoranam.png": "/engagement-invite/static/media/thoranam.fc45afd48a462333a12b.png",
+    "static/media/banana.png": "/engagement-invite/static/media/banana.d7bc2da636e944093d6e.png",
+    "static/media/v1.jpg": "/engagement-invite/static/media/v1.c8beccc906bfeaca0620.jpg",
+    "index.html": "/engagement-invite/index.html",
+    "main.b65d9e1b.css.map": "/engagement-invite/static/css/main.b65d9e1b.css.map",
+    "main.d1f06355.js.map": "/engagement-invite/static/js/main.d1f06355.js.map",
+    "453.9bab38cf.chunk.js.map": "/engagement-invite/static/js/453.9bab38cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b65d9e1b.css",
+    "static/js/main.d1f06355.js"
+  ]
+}
