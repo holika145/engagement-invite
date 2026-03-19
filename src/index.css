@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','Plus Jakarta Sans'
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Hide scrollbar for Tailwind */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+@layer base {
+  .atropos-shadow {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+
+
+/* Remove dark overlay / shadow from Atropos */
+.atropos-shadow {
+  display: none !important; /* Hides the shadow element entirely */
+}
+
+/* Or, if you just want to make it transparent */
+.atropos-shadow {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+

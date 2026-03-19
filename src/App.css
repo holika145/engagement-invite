@@ -1,0 +1,129 @@
+body{
+  overflow-x: hidden;
+}
+
+.App {
+  background: #c9d2e7;
+}
+
+.react-tel-input .selected-flag .arrow {
+  display: none !important;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.fade-in {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.list-item-slide-in {
+  animation: slide-in 1s ease-out forwards;
+}
+/* Custom arrow bullets */
+.list-item-arrow::before {
+  content: "→";  /* Arrow character */
+  margin-right: 10px;  /* Space between the arrow and text */
+  color: black;  /* Arrow color (can be customized) */
+}
+
+
+/* App.css or global.css */
+@media screen and (min-width: 1920px) {
+  .responsive-position {
+    margin-top: -25%;
+    left: 8%;
+    padding: 5%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .responsive-position {
+    margin-top: -30%;
+    left: -0%;
+    padding: 3%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .responsive-position {
+    margin-top: -30%;
+    left: 6%;
+    padding: 3%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .responsive-position {
+    margin-top: -25%;
+    left: 6%;
+    padding: 5%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+  .responsive-position {
+    margin-top: -30%;
+    left: -2%;
+    padding: 2%;
+  }
+}
+
+@keyframes snow-glow {
+  0% {
+    box-shadow: 0 0 10px #b4f0ff, 0 0 20px #b4f0ff, 0 0 30px #b4f0ff;
+  }
+  50% {
+    box-shadow: 0 0 20px #8de4ff, 0 0 30px #8de4ff, 0 0 40px #8de4ff;
+  }
+  100% {
+    box-shadow: 0 0 10px #b4f0ff, 0 0 20px #b4f0ff, 0 0 30px #b4f0ff;
+  }
+}
+
+@keyframes pulseShadow {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.9));
+  }
+}
+
+@keyframes heartPulse {
+  0%, 100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 10px rgba(250, 204, 21, 0.6));
+  }
+  50% {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px rgba(250, 204, 21, 0.9));
+  }
+}
+
+.animate-heart {
+  animation: heartPulse 2s ease-in-out infinite;
+}
+
+
+@keyframes floatUp {
+  0% { transform: translateY(0) scale(0.8); opacity: 1; }
+  100% { transform: translateY(-200px) scale(1.2); opacity: 0; }
+}
+.float-heart {
+  animation: floatUp 2s ease-in-out forwards;
+  position: absolute;
+  font-size: 1.2rem;
+}
+
+
