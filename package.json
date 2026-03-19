@@ -2,7 +2,6 @@
   "name": "cynodynamics",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://holika145.github.io/engagement-invite",
   "dependencies": {
     "@fontsource/inter": "^5.2.6",
     "@fontsource/plus-jakarta-sans": "^5.2.6",
